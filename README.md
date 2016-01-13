@@ -18,7 +18,7 @@ lives in [its own repository](https://github.com/gib/www.shortforgilbert.com).
 The compiled site is served via my [github user page](https://gib.github.io) and
 lives in [a separate repository](https://github.com/gib/gib.github.io)
 (instead of a `gh-pages` branch). They share the same `README`. So many ways
-to do the same thing. Maybe they should be in the same repo. ¯\_(°_o)_/¯
+to do the same thing. Maybe they should be in the same repo. ¯\\_(°\_o)\_/¯
 
 The Make file's `release` command handles the compilation and git work to put
 the compiled contents to the `gib.github.io` repository.

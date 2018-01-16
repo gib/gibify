@@ -93,11 +93,13 @@ a
   > div
     margin 0 5px
   svg
-    fill text-color
-    transition: fill 0.25s ease-in-out
+    g, path
+      fill text-color
+      transition: fill 0.25s ease-in-out
   a
     &:hover svg
-      fill hover-color
+      g, path
+        fill hover-color
 
 .codepen
   height 50px
@@ -107,12 +109,16 @@ a
   height 50px
   width 50px
   svg
-    fill text-color
     transform scale(0.65)
 
 .twitter
   height 50px
   width 50px
   svg
-    fill text-color
     transform scale(0.65)
+
+.cv-pdf
+  height 50px
+  width 50px
+  svg
+    transform scale(0.55) translate(0,-5px)

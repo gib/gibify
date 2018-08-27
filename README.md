@@ -5,7 +5,7 @@ elbow on my high school hockey jersey. I go by Gib. `gib.com` was taken
 (unless you're looking to unload it Gulf International Bank?) and
 gibify.com was not. I did consider `bigbackwards.com`, and used to have
 `shortforgilbert.com`&mdash;domain name availability checking certainly rustles
-more than its fare share of jimmies.
+more than its share of jimmies.
 
 [How Many of Me.com](http://howmanyofme.com/search/) suggests out of 321,863,829
 in the last US census, there are fewer than 1,609 people in the US with the

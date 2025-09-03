@@ -6,6 +6,7 @@ release:
 		@harp compile
 		@echo "Compiled static files"
 		@cp README.md www
+		@echo 'www.shortforgilbert.com' > www/CNAME
 		@cd www && \
 			git init && \
 			git add . && \

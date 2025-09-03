@@ -1,3 +1,3 @@
 #
-# short for gilbert
+# gibify
 #

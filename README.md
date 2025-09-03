@@ -18,4 +18,5 @@ This site&hellip;page, is built with [Harp](http://harpjs.com/).
 The Make file's `release` command handles the compilation and git work to put
 the compiled contents to the `gh-pages` branch.
 
-This site used to be available at www.shortforgilbert.com,
+This site used to be available at www.shortforgilbert.com. Long story short, I
+missed the renewal and didn't want to pay 1&1's fee on principle.

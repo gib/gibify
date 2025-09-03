@@ -6,12 +6,12 @@ release:
 		@harp compile
 		@echo "Compiled static files"
 		@cp README.md www
-		@echo 'www.gibreimschussel.com' > www/CNAME
 		@cd www && \
 			git init && \
 			git add . && \
-			git commit --allow-empty -m 'Static compilation of https://github.com/gib/s4g' && \
+			git commit --allow-empty -m 'Static compilation of https://github.com/gib/gibify' && \
 			git remote add origin git@github.com:gib/gibify.git && \
+			git checkout -b gh-pages && \
 			git push --force origin gh-pages
 		@echo "Pushed to github gibify, gh-pages branch"
 		@echo "Cleaning up..."

@@ -12,7 +12,7 @@ I assure the reader that I am a 100% Verified Gib&trade;
 too many years to count. That's something. And if you're looking to unload `gib.com`,
 Gulf International Bank, you know where to find me!
 
-![](https://github.com/gib/gibify/blob/master/gibify.gif)
+![](https://github.com/gib/gibify/blob/main/gibify.gif)
 
 I built this update with [11ty](https://www.11ty.dev/) and would definitely recommend it.
 This static site is hosted via github pages @ [https://gib.github.io/gibify/](https://gib.github.io/gibify/).

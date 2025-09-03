@@ -1,24 +1,17 @@
 # gibify
 
 Gilbert Ronald Reimschüssel. That's my name. It's big. It's German. Elbow to
-elbow on my high school hockey jersey. I go by Gib. `gib.com` was taken
-(unless you're looking to unload it Gulf International Bank?) and
-gibify.com was not. I did consider `bigbackwards.com`, and used to have
-`shortforgilbert.com`&mdash;domain name availability checking certainly rustles
-more than its share of jimmies.
+elbow on my high school hockey jersey. I go by Gib.
 
 [How Many of Me.com](http://howmanyofme.com/search/) suggests out of 321,863,829
 in the last US census, there are fewer than 1,609 people in the US with the
 first name Gib and 143,229 with the first name Gilbert.
-I assure the reader that I am 100% Verified Gib&trade;
+I assure the reader that I am a 100% Verified Gib&trade;
+
+`gib.com` was taken, so I'm sticking with github pages where I have actually had `gib` as a username for 
+too many years to count. That's something. And if you're looking to unload `gib.com`,
+Gulf International Bank, you know where to find me!
 
 ![](https://github.com/gib/gibify/blob/master/s4g-screenshot.png)
 
-This site&hellip;page, is built with [Harp](http://harpjs.com/).
-The Make file's `release` command handles the compilation and git work to put
-the compiled contents to the `gh-pages` branch.
-
-This site used to be available at `shortforgilbert.com`. Long story short, I
-missed the renewal and didn't want to pay 1&1's fee on principle. I was never
-able to re-register it on the open market and some joker got it and put a web
-store that Calvin Klein Trademark Trust shut down. The lulz of the interwebs.
+I built this update with [11ty](https://www.11ty.dev/) and would definitely recommend it.

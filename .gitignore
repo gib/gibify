@@ -1,1 +1,26 @@
-www
+# Node
+node_modules/
+npm-debug.log*
+
+# Eleventy build output
+_site/
+dist/
+
+.tmp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*

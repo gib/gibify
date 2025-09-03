@@ -21,12 +21,12 @@
         <style>
             @keyframes skymation {
                 0% { background-position: 0% -50%; }
-                50% { background-position: 0% 50%; }
+                50% { background-position: 0% 60%; }
                 100% { background-position: 0% -50%; }
             }
             body {
                 align-items: center;
-                animation: skymation 120s ease-in-out 0s infinite reverse;
+                animation: skymation 60s ease-in-out 0s infinite reverse;
                 background-color: #2A649B;
                 background-image: linear-gradient(
                     180deg,
@@ -36,7 +36,7 @@
                 );
                 background-position: 0% -50%;
                 background-repeat: no-repeat;
-                background-size: 100% 300%;
+                background-size: 100% 200%;
                 color: #fff;
                 display: flex;
                 font-family: sans-serif;
@@ -48,48 +48,35 @@
                 display: block;
                 font-size: 3em;
                 text-align: center;
-                text-shadow: 2px 2px rgba(0,0,0,0.3);
-                text-transform: lowercase;
+            }
+            svg {
+                height: auto;
+                width: 30px;
             }
             figcaption {
                 display: none;
             }
             nav {
-                background-color: rgba(255,255,255,0.05);
-                border-radius: 30px;
                 align-items: center;
                 display: flex;
                 flex-wrap: wrap;
                 gap: 50px;
                 justify-content: center;
                 margin-top: 20px;
-                padding: 15px 30px;
-                transition: all 0.5s ease-in-out;
-            }
-            nav:hover, nav:focus-within {
-                background-color: rgba(255, 255, 255, 0.1);
-                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
             }
             a {
                 color: #fff;
                 text-decoration: none;
+                transition: color 0.3s ease-in-out;
             }
             a:hover, a:focus {
+                color: #000;
                 outline: none;
-            }
-            svg {
-                height: auto;
-                width: 30px;
-                filter: drop-shadow(0px 0px rgba(0, 0, 0, 0.7));
-                transition: all 0.5s ease-in-out;
-            }
-            a:hover svg, a:focus svg {
-                filter: drop-shadow(0px -1px 1px rgba(0, 0, 0, .8));
             }
         </style>
     </head>
     <body>
-        <h1>gib</h1>
+        <h1 class="hideme">Gib Reimschüssel</h1>
         <nav>
             <a href="https://github.com/gib" tabindex="0">
                 <figure class="link-icon">
@@ -102,7 +89,7 @@
                     </figcaption>
                 </figure>
             </a>
-            <a href="/assets/Resume-Gib-Reimschuessel.pdf" tabindex="0">
+            <a filename="Resume-Gib-Reimschuessel.pdf" href="/assets/Resume-Gib-Reimschuessel.pdf" tabindex="0">
                 <figure class="link-icon">
                     <svg width="64" height="64" viewBox="0 0 64 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M43.9151 34.411C44.5538 34.411 45.0721 34.9296 45.0721 35.5686C45.0721 36.2076 44.554 36.7262 43.9151 36.7262H15.1505C14.5118 36.7262 13.9935 36.2076 13.9935 35.5686C13.9936 34.9295 14.5117 34.411 15.1505 34.411H43.9151Z" />
